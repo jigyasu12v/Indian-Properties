@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+header a.logo{
+    font-family:'Pushster', cursive;
+    color: black;
+    font-size: 40px;
+
+}
+    aZDSXCGTFY
+
+header span{
+    color: red;
+
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right:0;
+    z-index: 1000;
+    background: #fff;
+    padding: 1rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .navbar a{
+    padding: 0 1.5rem;
+    color: rgb(206, 180, 34);
+    font-size: 1.4rem;
+    
+
+}
+header .navbar a:hover{
+    color: red;
+    font-size: 1.6rem;
+    text-decoration: underline black;
+}
+header div,
+header div a{
+    color: red;
+    font-size: 1.5rem;
+    padding: .2rem;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    text-align: center;
+}
+header div,
+header div a:hover{
+    color: rosybrown;
+}
+header #menu-bars{
+    display: none;
+}
+section{
+    padding: 2.2rem 12%;
+    padding-bottom: 3rem;
+}
+
+
+section{
+    background-image: url('main\ frame.jpg');
+    height: 1100px;
+    width: 1050px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+ 
+}
+
+.btn{
+    color: black;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    line-break: initial;
+    justify-content: center;
+    margin: 1.5rem;
+    text-align: center;
+    
+}
+.box{
+    background-color: white;
+    justify-content: center;
+    display: block;
+    padding: 2rem;
+}
+.prop{
+    padding-left: 4rem;
+    font-size: 16px;
+    
+
+}
+.submit{
+   color: goldenrod;
+   background-color: rgb(23, 22, 23);
+    margin: 2rem;
+    font-size: x-large;
+    cursor: pointer;
+    
+    
+}
+.background{
+    color: red;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 36rem;
+    font-size: 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.circle{
+    display: flex;
+    background-color:red;
+
+    align-items: center;
+    padding: 2rem;
+    margin: 1.5rem;
+    justify-content: space-between;
+    font-size: xx-large;
+    
+    
+ 
+}
+.happy:hover{
+padding-left: 2rem;
+color: goldenrod;
+
+}
+
+.happy{
+    background-color: #f7f7f7;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    align-items: flex-start;
+    padding-top: 7rem;
+    padding-left: 5rem;
+    cursor: pointer;
+
+    
+}
+
+
+.hell{
+    background-image: url('house.jpg');
+}
+#head{
+    color: rgb(173, 23, 48);
+    font-size: 4rem;
+    text-shadow: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.fd{
+    width: 800px;
+    height: 400px;
+}
+.inputBox{
+    word-spacing: 10rem;
+    padding-bottom: 5rem;
+}
+.th{
+    float: right;
+    padding-left: 10rem;
+}
+.vil{
+    float: right;
+    
+    
+}
+footer{
+    color: #f7f7f7;
+ width: 100%;
+ position: static;
+ bottom: 0;   
+ background: linear-gradient(to right, #aa1b86,#2d0b00);
+ padding: 100px, 0px, 30px ;
+ font-size: 15px;
+ line-height: 20px;
+ border-top-left-radius: 125px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 20%;
+    padding: 2px;
+}
+ul li {
+    list-style: none;
+
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.col a{
+     color: white;
+     padding: 3px;
+}
+
+.col a:hover{
+    color: blue;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.underlne{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    border-radius: 3px ;
+    background: #767676;
+    top: 25px;
+    left: 0;
+
+}
+
+.contain{
+    background-image: url('background.jpg');
+    width: 1350px;
+    height: 900px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: goldenrod;
+}
+
+.prop-container{
+    display: block;
+}
+.pro{
+    font-size: xx-large;
+    padding-left: 38rem;
+    margin: 2rem;
+}
+.base{
+    padding-left: 22rem;
+    cursor: pointer;
+}
+
+.bk{
+    background: linear-gradient(to right, #2b9fc6,#7b3016);
+}
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 2rem;
+
+  }
+
+  input[type="reset"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #d14f3b;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 2rem;
+    
+  }
+  .prop-container{
+    background:rgba(226 0 0 0.7);
+    width: 1000px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1270px)
+{
+    html{
+        font-size: 80%;
+    }
+}
+
+
+
+@media (max-width:1100px){
+    
+    html{
+        font-size: 75%;
+    }
+header{
+    padding: 1.5rem 1rem;
+}
+    
+}
+
+@media (max-width:870px){
+
+    header #menu-bars{
+        display: inline-block;
+        cursor: pointer;
+     }
+     header nav{
+         left: 0; right: 0; top: 100%;
+         position: absolute;
+         transition: .2s linear;
+         background: #f7f7f7;
+         border-top: .1rem solid #333;
+         border-bottom: .1rem solid #333;
+         
+          
+     }
+
+
+     header nav a{
+        padding: 1.5rem;
+        margin: 1.5rem;
+        display: block;
+        border: .1rem solid #333;
+        background: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0 0 0 1);
+        border-radius: 0.5rem;
+    }
+  
+     
+}
+@media (max-width:465px){
+    html{
+        font-size: 50%;
+    }
+}
